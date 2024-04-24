@@ -5,11 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "backend":"json-server --watch db/db.json"
+    "backend": "json-server --watch db/db.json"
   },
   "dependencies": {
     "core-js": "^3.8.3",
     "json-server": "^1.0.0-alpha.23",
+    "mysql": "^2.18.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },
