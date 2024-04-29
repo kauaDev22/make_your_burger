@@ -27,9 +27,12 @@
             <span>{{ opcional.tipo }}</span>
           </div>
         </div>
-        <div class="input-container">
+        <div id="btn-btn">
+          <div class="input-container">
           <input class="submit-btn" type="submit" value="Criar meu Burger!">
         </div>
+        </div>
+       
       </form>
     </div>
   </template>
@@ -72,7 +75,6 @@
          }
 
         const data = {
-          id : parseInt(this.id++),
           nome: this.nome,
           carne: this.carne,
           pao: this.pao,
@@ -163,6 +165,10 @@
     .checkbox-container span {
       margin-left: 6px;
       font-weight: bold;
+    }
+
+    #btn-btn{
+      display: flex;
     }
   
     .submit-btn {

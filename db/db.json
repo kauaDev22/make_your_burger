@@ -65,28 +65,60 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
   "burgers": [
     {
-      "id": 1,
+      "id": "6c96",
       "nome": "kaua",
-      "carne": "Alcatra",
+      "carne": "Maminha",
       "pao": "3 Queijos",
       "opcionais": [
         "Bacon"
       ],
-      "status": "Solicitado"
+      "status": "Em produção"
+    },
+    {
+      "id": "d25a",
+      "nome": "Kauã Jotta",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Bacon",
+        "Salame"
+      ],
+      "status": "Finalizado"
+    },
+    {
+      "id": "02ba",
+      "nome": "gate_apagar",
+      "carne": "Picanha",
+      "pao": "Integral",
+      "opcionais": [
+        "Salame"
+      ],
+      "status": "Finalizado"
+    },
+    {
+      "id": "a813",
+      "nome": "gate_apagar",
+      "carne": "Picanha",
+      "pao": "Integral",
+      "opcionais": [
+        "Cebola roxa",
+        "Pepino"
+      ],
+      "status": "Em produção"
     }
   ]
 }
