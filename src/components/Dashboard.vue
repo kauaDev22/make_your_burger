@@ -94,7 +94,7 @@ export default {
         });
 
         const res = await req.json()
-        this.msg = `Pedido Nº${res.id} foia atualizado para ${res.status}!`;
+        this.msg = `Pedido Nº${res.id} foi  atualizado para ${res.status}!`;
         
         setTimeout(() => this.msg = "", 3000);
         
